@@ -1,0 +1,29 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "This contains all the react projects I have Build.",
+  "homepage": "https://github.com/nikcode-1996/namaste-react#readme",
+  "bugs": {
+    "url": "https://github.com/nikcode-1996/namaste-react/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikcode-1996/namaste-react.git"
+  },
+  "license": "ISC",
+  "author": "Nikhil",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.3"
+  },
+  "dependencies": {
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
