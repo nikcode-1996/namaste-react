@@ -1,3 +1,36 @@
-h1{
-    background-color: red;
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nav-items ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.res-card{
+    width: 200px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+
+.res-logo{
+    width: 100%;
+}
+
+.search, .res-container{
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
 }

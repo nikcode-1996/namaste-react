@@ -25,3 +25,9 @@ Functional Component - New way of coding
 
 can inject anu=y js code in jsx paranthesis. Meaning the return of a componnet.
 cross site scripting - if someone tries to attacka  malicuous attacl through api and that datapasses in jsx than jsx will avutomatically sanitizes it.
+
+
+<!-- Episode 3 -->
+COnfig Driven Ui - Ui nased on repsonse data.
+Always add index in map function.
+Never add index as keys in map function.
