@@ -31,3 +31,15 @@ cross site scripting - if someone tries to attacka  malicuous attacl through api
 COnfig Driven Ui - Ui nased on repsonse data.
 Always add index in map function.
 Never add index as keys in map function.
+
+
+<!-- Episode 4-5 -->
+
+Hooks - 
+Normal Js utility functions
+2 most impotant hook - useState and useEffect
+whenever a state variable is updated react re-render the component
+react use reconsialisation ( react fiber)
+Actual Dom is where we see all the tags
+react creates a virtual DOM - which is representation of actual DOM.
+Diff Alogorith finds out difference between Old Virtual DOM and new Virtual DOM. it calculate the difference and than update the actual DOM in render cycle.

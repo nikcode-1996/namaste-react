@@ -28,8 +28,12 @@ body{
     width: 100%;
 }
 
-.search, .res-container{
-    padding: 20px;
+.filter-btn{
+    margin: 20px;
+}
+
+.filter-btn, .res-container{
+    padding: 10px 20px;
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
