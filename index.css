@@ -38,3 +38,35 @@ body{
     gap: 20px;
     flex-wrap: wrap;
 }
+
+.search-box, .search-btn{
+    padding: 10px;
+    /* font-size: 16px; */
+}
+
+.filter{
+    display: flex;
+    align-items: center;
+}
+
+.search{
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.shimmer-card{
+    width: 200px;
+    height: 400px;
+    background: rgba(128, 128, 128, 0.322);
+    background-size: 400% 100%;
+    animation: shimmer 1.5s infinite;
+    border-radius: 5px;
+}
+
+.shimmer-container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+}

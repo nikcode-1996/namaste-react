@@ -43,3 +43,17 @@ react use reconsialisation ( react fiber)
 Actual Dom is where we see all the tags
 react creates a virtual DOM - which is representation of actual DOM.
 Diff Alogorith finds out difference between Old Virtual DOM and new Virtual DOM. it calculate the difference and than update the actual DOM in render cycle.
+
+<!-- Episode 6 -->
+Monolith architecture - Where all the operations like api, ui, backend, Db etc developed in a same project, and if we have do a small change in project we need to deploy whole project again.
+
+Microservie Architecture - All these operations are different to each other. This is called seperation of concers. Backend team maintain backend etc. Each operation can use the language they want to use.
+
+Two ways to get api from backend.
+1. First is as soon as page loads we can make api call, wait for data to come than we will render the ui.
+2. Second approach is as soon as page load we will render the ui, after that we will make an api call and than populate the data.
+Second apprach is better.
+
+UseEffect is called after the componennt in done rendering and the callback function in useeffect will be called. If we have do something after the component is rendered than we use useEffect.
+
+Whenever a state variable update, react triggers teh component to re-render
