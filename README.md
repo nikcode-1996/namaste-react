@@ -56,4 +56,20 @@ Second apprach is better.
 
 UseEffect is called after the componennt in done rendering and the callback function in useeffect will be called. If we have do something after the component is rendered than we use useEffect.
 
-Whenever a state variable update, react triggers teh component to re-render
+Whenever a state variable update, react triggers teh component to re-render.
+
+Episode - 7
+All about dependency array in useEffect.
+1. If we add no dependency array, than the whole component will re-ernder again every time anything change sin that.
+2. If we have blank dep. array, than it willr ender only first time render.
+3. if it have some value in dependency array, then it will executes on first render and every time that value changes.
+
+React Router - 
+We have to create router config first and than pass it to ReactDOM.createRoot. We need to pass the routes in that config. We need to provide that config to createDoM createBrowserRouter, RouterProvider.
+to showcase error -  useRouteError
+use Link from react router DOM
+
+Types of Routing in web apps
+1. Client Side Routing - 
+2. Server Side Routing - 
+Changed swiggy api to https://dummyjson.com/products

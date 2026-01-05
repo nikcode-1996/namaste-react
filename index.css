@@ -22,6 +22,7 @@ body{
     padding: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     border-radius: 5px;
+    height: 100%;
 }
 
 .res-logo{
@@ -34,6 +35,7 @@ body{
 
 .filter-btn, .res-container{
     padding: 10px 20px;
+    /* justify-content: space-between; */
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
@@ -69,4 +71,10 @@ body{
     gap: 20px;
     flex-wrap: wrap;
     padding: 10px 20px;
+}
+
+.res-container a{
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 20px;
 }

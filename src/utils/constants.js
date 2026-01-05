@@ -1,2 +1,2 @@
-export const CDN_URL = "https://media-assets.swiggy.com/swiggy/image/upload/";
+export const CDN_URL = "https://cdn.dummyjson.com/product-images/";
 
