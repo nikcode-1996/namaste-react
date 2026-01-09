@@ -1,19 +1,11 @@
-import { useEffect, useState } from "react";
+
 import { useParams } from "react-router-dom";
 import { ShimmerText } from "react-shimmer-effects";
+import useRestrauntMenu from "../utils/useRestrauntMenu";
 
 const RestaurantMenu = () => {
-    const [restaurantMenu, setRestaurantMenu] = useState(null);
-    useEffect(() => {
-        fetchData();
-    }, [])
     const { id } = useParams();
-
-    const fetchData = async () => {
-        const data = await fetch("https://dummyjson.com/products/" + id);
-        const json = await data.json();
-        setRestaurantMenu(json);
-    }
+    const restaurantMenu = useRestrauntMenu(id);
     const {
         title,
         description,
@@ -32,12 +24,12 @@ const RestaurantMenu = () => {
             <h3>{title}</h3>
             <h4>{category}</h4>
             <h4>{description}</h4>
-            <h4>{tags.join(' , ')}</h4>
+            <h4>{tags?.join(', ')}</h4>
+            <h2>Reviews</h2>
             <div>
-                <h2>Reviews</h2>
                 <ul>
                     {reviewsList.map((review, index) => (
-                        < div className="reviews-list" key={index}>
+                        <div className="reviews-list" key={index}>
                             <li>Rating: {review.rating}</li>
                             <li>{review.comment}</li>
                             <li>{review.reviewerName}</li>

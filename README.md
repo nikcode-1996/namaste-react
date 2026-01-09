@@ -1,7 +1,7 @@
 # namaste-react
 This contains all the react projects I have Build.
 
-<!-- #Episode 2 -->
+#Episode 2
 Pushed the code to github. 
 Than install the npm by npm init command.
 Npm is a package manager.
@@ -14,7 +14,7 @@ npx means executing a package, npm installs a package
 All about parcel
 
 
-<!-- Episode 2 -->
+Episode 2
 JSX - HTML like or XML like syntax
 Babel - Transpile the react code to a code that brwser understands. babel convert jsx -> react.createelemnt - Js Object -> Html Element(render)
 Attribute in jsx is written in Camelcase
@@ -27,13 +27,13 @@ can inject anu=y js code in jsx paranthesis. Meaning the return of a componnet.
 cross site scripting - if someone tries to attacka  malicuous attacl through api and that datapasses in jsx than jsx will avutomatically sanitizes it.
 
 
-<!-- Episode 3 -->
+Episode 3
 COnfig Driven Ui - Ui nased on repsonse data.
 Always add index in map function.
 Never add index as keys in map function.
 
 
-<!-- Episode 4-5 -->
+Episode 4-5
 
 Hooks - 
 Normal Js utility functions
@@ -44,7 +44,7 @@ Actual Dom is where we see all the tags
 react creates a virtual DOM - which is representation of actual DOM.
 Diff Alogorith finds out difference between Old Virtual DOM and new Virtual DOM. it calculate the difference and than update the actual DOM in render cycle.
 
-<!-- Episode 6 -->
+Episode 6
 Monolith architecture - Where all the operations like api, ui, backend, Db etc developed in a same project, and if we have do a small change in project we need to deploy whole project again.
 
 Microservie Architecture - All these operations are different to each other. This is called seperation of concers. Backend team maintain backend etc. Each operation can use the language they want to use.
@@ -73,3 +73,10 @@ Types of Routing in web apps
 1. Client Side Routing - 
 2. Server Side Routing - 
 Changed swiggy api to https://dummyjson.com/products
+
+Episode - 8
+Class based Components
+
+Episode - 9
+Custom Hooks
+Hooks are like utility function.
